@@ -29,12 +29,17 @@ $input-border-radius: 1rem;
 $nav-link-color: $grisDark;
 $nav-link-hover-color: $dark;
 $input-border-color: $dark;
+$btn-border-radius: 0;
 
 //Cards
 
 $card-spacer-x: 0;
 $card-border-radius: 0;
 $card-border-width: 0;
+
+// Habilitar CSS grid
+
+$enable-cssgrid:              true;
 
 
 

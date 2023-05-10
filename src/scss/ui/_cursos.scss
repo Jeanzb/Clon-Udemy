@@ -15,7 +15,7 @@
     .curso {
         @include make-col-ready;
 
-        @include media-breakpoint-up(md) {
+        @include media-breakpoint-up(sm) {
             @include make-col(1, 2)
         } 
 
@@ -31,18 +31,23 @@
             font-family: $fuente-textos;
             font-size: 1rem;
         }
-
+        .total,
         .instructor {
             font-size: .8rem;
             margin: 0;
         }
 
+        .calificacion {
+            width: 6rem;
+        }
         .precio {
-
+            font-size: .9rem;
+            span {
+                font-size: .7rem;
+                text-decoration: line-through;
+            }
         }
 
-        .total {
-
-        }
+        
     }
 }
